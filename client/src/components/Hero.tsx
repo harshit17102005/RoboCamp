@@ -1,4 +1,4 @@
-import { motion, Variants } from 'framer-motion';
+import { motion, type Variants } from 'framer-motion';
 import { ArrowRight, Sparkles } from 'lucide-react';
 
 const titleVariants: Variants = {
