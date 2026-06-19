@@ -29,7 +29,7 @@ export default function RegistrationForm() {
 
   const onSubmit = async (data: RegistrationFormData) => {
     try {
-      const response = await axios.post('http://localhost:5000/api/enquiry', data);
+      const response = await axios.post('https://robocamp-backend.onrender.com/api/enquiry', data);
       if (response.data.success) {
         toast.success('Successfully enrolled!');
         setIsSuccess(true);
